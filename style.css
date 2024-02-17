@@ -1,0 +1,119 @@
+
+/* Styling for the body element */
+body {
+    font-family: "Goldman", sans-serif;
+    font-style: normal;
+    margin: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 0;
+    background-color: #61C200;
+    color: rgb(255, 255, 255);
+}
+
+/* Styling for the form container */
+#form-div {
+    background-color: #000000;
+    padding: 60px;
+    padding-bottom: 80px;
+    padding-top: 30px;
+    border: 4px rgb(0, 0, 0) solid;
+    border-radius: 70px;
+    margin: 0;
+}
+
+/* Styling for the form heading */
+#form-h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+/* Styling for the input container */
+#input-div {
+    font-size: 33px;
+    text-align: center;
+}
+
+/* Styling for the numeric input container */
+.inputNum-div {
+    border-radius: 50px;
+    border: rgb(0, 0, 0);
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+/* Styling for the arithmetic operator buttons */
+.arithmeticOperator {
+    margin: 15px;
+    font-size: 28px;
+    background-color: #61C200;
+    padding: 14px;
+    border-radius: 30px;
+    text-align: center;
+    color: #ffffff;
+    border: 3px solid white;
+}
+
+/* Hover effect for the arithmetic operator buttons */
+.arithmeticOperator:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Styling for the submit button */
+#btn {
+    font-family: "Goldman", sans-serif;
+    margin: 10px;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    height: 60px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    border: 3px solid;
+}
+
+/* Hover effect for the submit button */
+#btn:hover {
+    color: #ffffff;
+    background-color: #61C200;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+/* Styling for the horizontal rule */
+hr {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/* Styling for the output section */
+#output-Section {
+    margin: 10px;
+    font-size: 23px;
+    background-color: #61C200;
+    border-radius: 80px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 50px;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+/* Styling for the output text within the output section */
+#output-Section p {
+    font-size: 44px;
+}
+
+/* Styling for the input field within the input container */
+#input-div input {
+    font-size: 26px;
+    text-align: center;
+}
+
+#arithmeticButtons{
+    padding-top: 55px;
+}

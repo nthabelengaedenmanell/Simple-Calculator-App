@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Calculator App</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <section id="form-div">
+        <h1 id="form-h1">Calculator App</h1>
+
+        <form>
+            <div id="output-Section">
+                <h2>Output = </h2>
+                <p id="output"></p>
+            </div>
+            <div>
+                <!-- Container for the input of the first integer -->
+                <div id="input-div">
+                    <label for="num1" id="input-label">Enter the first Number:</label><br /><br />
+                    <input type="number" id="num1" class="inputNum-div" required />
+                </div>
+                <!-- Container for the input of the second integer -->
+                <div id="input-div">
+                    <label for="num2">Enter the second Number:</label><br /><br />
+                    <input type="number" id="num2" class="inputNum-div" required />
+                </div>
+            </div>
+
+            <div id="arithmeticButtons">
+                <div class="arithmeticOperator">
+                    <!-- Label and radio button for addition operation -->
+                    <label for="addition">Addition [+]</label>
+                    <input type="radio" id="addition" />
+                    <br />
+                </div>
+                <div class="arithmeticOperator">
+                    <!-- Label and radio button for subtraction operation -->
+                    <label for="subtraction">Subtraction [-]</label>
+                    <input type="radio" id="subtraction" />
+                    <br />
+                </div>
+                <div class="arithmeticOperator">
+                    <!-- Label and radio button for multiplication operation -->
+                    <label for="multiplication">Multiplication [*]</label>
+                    <input type="radio" id="multiplication" />
+                    <br />
+                </div>
+                <div class="arithmeticOperator">
+                    <!-- Label and radio button for division operation -->
+                    <label for="division">Division [/]</label>
+                    <input type="radio" id="division" />
+                </div>
+            </div>
+            <hr>
+            <div id="formbtn-section">
+                <!-- Container for the calculate button -->
+                <div class="formBtn">
+                    <button type="button" id="btn" onclick="calculate()">
+                        Calculate
+                    </button>
+                </div>
+                <!-- Container for the reset button -->
+                <div class="formBtn">
+                    <button type="reset" id="btn">Reset</button>
+                </div>
+            </div>
+        </form>
+    </section>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
