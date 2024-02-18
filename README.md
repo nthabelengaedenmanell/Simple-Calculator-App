@@ -1,4 +1,4 @@
-# Simple Calculator Project
+# Calculator Project
 
 This project is a simple calculator application that allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. It provides an intuitive user interface with input fields and buttons for easy interaction.
 
