@@ -95,17 +95,21 @@ hr {
 #output-Section {
     margin: 10px;
     font-size: 23px;
-    background-color: #61C200;
-    border-radius: 80px;
+    background-color: #ffffff;
+    border-radius: 25px;
     text-align: center;
-    color: #ffffff;
+    color: #000000;
     margin-bottom: 50px;
     border: 3px solid rgb(255, 255, 255);
 }
 
+#output-Section h2{
+    font-size: 40px;
+}
+
 /* Styling for the output text within the output section */
 #output-Section p {
-    font-size: 44px;
+    font-size: 40px;
 }
 
 /* Styling for the input field within the input container */
