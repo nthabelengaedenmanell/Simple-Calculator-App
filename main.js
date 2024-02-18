@@ -16,9 +16,14 @@ function calculate() {
   const b = document.getElementById("num2").value;
 
   // Get the state of the operation checkboxes
+
+  // Retrieve the value of the "addition" checkbox element and store it in the variable calAddition.
   let calAddition = document.getElementById("addition").checked;
+  // Retrieve the value of the "subtraction" checkbox element and store it in the variable calSubtraction.
   let calSubtraction = document.getElementById("subtraction").checked;
+  // Retrieve the value of the "multiplication" checkbox element and store it in the variable calMultiplication.
   let calMultiplication = document.getElementById("multiplication").checked;
+  // Retrieve the value of the "division" checkbox element and store it in the variable calDivision.
   let calDivision = document.getElementById("division").checked;
 
   // Addition: This function adds two numbers and returns the result.
@@ -57,4 +62,21 @@ function calculate() {
 
   // Display the result in the output element
   document.getElementById("output").textContent = output;
+}
+
+/* 
+This function reloads the current webpage, 
+effectively refreshing the page and resetting its state.
+*/
+
+/* 
+The reload() method reloads the current document.
+The reload() method does the same as the reload 
+button in your browser.
+*/
+function resetCalculator() {
+  /* The location.reload() method is a built-in function 
+  in JavaScript that allows you to reload the 
+  current webpage or document. */
+  location.reload();
 }
